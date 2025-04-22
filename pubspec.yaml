@@ -1,0 +1,22 @@
+name: tower_of_hanoi
+description: A terminal-based Tower of Hanoi game with ANSI color support.
+version: 1.0.0
+
+environment:
+  sdk: "^3.7.0"
+
+dependencies:
+  ansicolor: ^2.0.1
+
+# Optional: include dev_dependencies for formatting and analysis
+dev_dependencies:
+  lints: ^5.1.1
+  test: ^1.24.0
+
+# Optional: for running the app from terminal more easily
+executables:
+  tower_of_hanoi: bin/main
+
+# Optional: specify where your Dart files are if you use bin/
+# If you're just using `main.dart` in the root, you can ignore this
+# and run with `dart run`.
